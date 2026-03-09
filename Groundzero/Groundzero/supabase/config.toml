@@ -1,0 +1,82 @@
+project_id = "awfyypktblvkjlqkmqvq"
+
+[functions.parse-script]
+verify_jwt = false
+
+[functions.generate-storyboard]
+verify_jwt = false
+
+[functions.translate-script]
+verify_jwt = false
+
+[functions.generate-concept-art]
+verify_jwt = false
+
+[functions.analyze-reference]
+verify_jwt = false
+
+[functions.extract-look-profile]
+verify_jwt = false
+
+[functions.generate-model-plan]
+verify_jwt = false
+
+[functions.calculate-shot-readiness]
+verify_jwt = false
+
+[functions.asset-intelligence]
+verify_jwt = false
+
+[functions.generate-proxy-model]
+verify_jwt = false
+
+[functions.extract-motion]
+verify_jwt = false
+
+[functions.meshy-3d-generate]
+verify_jwt = false
+
+[functions.tripo-3d-generate]
+verify_jwt = false
+
+[functions.check-api-keys]
+verify_jwt = false
+
+[functions.test-api-key]
+verify_jwt = false
+
+[functions.save-api-key]
+verify_jwt = false
+
+[functions.comfyui-image-generate]
+verify_jwt = false
+
+[functions.tencent-3d-generate]
+verify_jwt = false
+
+[functions.generate-scene]
+verify_jwt = false
+
+[functions.create-team-user]
+verify_jwt = false
+
+[functions.combine-concept-variants]
+verify_jwt = false
+
+[functions.location-intelligence]
+verify_jwt = false
+
+[functions.parse-creative-context]
+verify_jwt = false
+
+[functions.edit-facial-turnaround]
+verify_jwt = false
+
+[functions.analyze-beats]
+verify_jwt = false
+
+[functions.scene-intelligence]
+verify_jwt = false
+
+[functions.process-generation-jobs]
+verify_jwt = false
