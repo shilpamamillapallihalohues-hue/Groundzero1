@@ -485,7 +485,7 @@ Only pose, expression, and camera angle may differ from the reference sheets.`;
     const artStyle = requestData.artStyle || 'sketch';
     const storyboardStyles: Record<string, string> = {
       'sketch': 'Professional film storyboard frame. Clean pencil/ink sketch with confident linework. Grayscale with selective tonal values for depth. Hand-drawn storyboard aesthetic used in major film productions. NOT a finished illustration — a PLANNING frame.',
-      'photoreal': 'Cinematic previsualization frame. Photorealistic but with the clarity of a previs render. Clean, controlled lighting. Film production quality reference frame. NOT a glamour shot — a cinematography planning tool.',
+      'photoreal': 'A 3x3 grid layout containing 9 perfectly aligned panels, each panel showing the same scene from a different cinematic camera angle, ultra-consistent character identity and environment across all panels, no variation in character design, lighting continuity preserved across all views.',
       'anime': 'Anime-style storyboard frame (conte). Clean linework, flat colors, manga panel composition. Directorial storyboard quality.',
       'painterly': 'Digital painted storyboard frame. Quick but precise brushwork. Color keys for mood and lighting direction. Art department production reference.',
       'noir': 'High-contrast black and white storyboard. Dramatic chiaroscuro. Film noir storyboard aesthetic.',
