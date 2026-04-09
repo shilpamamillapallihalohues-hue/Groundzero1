@@ -482,10 +482,10 @@ Only pose, expression, and camera angle may differ from the reference sheets.`;
     }
 
     // Art style for storyboard frames
-    const artStyle = requestData.artStyle || 'sketch';
+    const artStyle = requestData.artStyle || 'photoreal';
     const storyboardStyles: Record<string, string> = {
       'sketch': 'Professional film storyboard frame. Clean pencil/ink sketch with confident linework. Grayscale with selective tonal values for depth. Hand-drawn storyboard aesthetic used in major film productions. NOT a finished illustration — a PLANNING frame.',
-      'photoreal': 'Cinematic previsualization frame. Photorealistic but with the clarity of a previs render. Clean, controlled lighting. Film production quality reference frame. NOT a glamour shot — a cinematography planning tool.',
+      'photoreal': '3*3 grid, 9 images in a grid with each image showing a different camera angle, cinematic animation in a high-budget IMAX feature film style using Unreal Engine aesthetics and Houdini procedural lighting, ultra-high-fidelity 3D rendering with physically based materials and ray-traced global illumination, large-format cinematic composition with epic scale and intimate framing, CAMERA defined by lens type, framing, and angle with diverse perspectives including macro detail, wide grandeur, abstract composition, low angle, high angle, eye level, over-the-shoulder, extreme close-up, and creative framing such as silhouette or reflection, LIGHTING driven by procedural volumetrics with atmospheric scattering, realistic light falloff, emissive interaction with particles, and dynamic layered illumination, SUBJECT clearly defined with rich physical detail and grounded proportions, ENVIRONMENT built with cinematic scale and immersive world detail, ATMOSPHERE enhanced by volumetric effects such as fog, dust, haze, and depth layering, MOOD expressed through dramatic contrast, color separation, and emotionally driven cinematic tone.',
       'anime': 'Anime-style storyboard frame (conte). Clean linework, flat colors, manga panel composition. Directorial storyboard quality.',
       'painterly': 'Digital painted storyboard frame. Quick but precise brushwork. Color keys for mood and lighting direction. Art department production reference.',
       'noir': 'High-contrast black and white storyboard. Dramatic chiaroscuro. Film noir storyboard aesthetic.',
