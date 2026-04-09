@@ -482,7 +482,7 @@ Only pose, expression, and camera angle may differ from the reference sheets.`;
     }
 
     // Art style for storyboard frames
-    const artStyle = requestData.artStyle || 'sketch';
+    const artStyle = requestData.artStyle || 'photoreal';
     const storyboardStyles: Record<string, string> = {
       'sketch': 'Professional film storyboard frame. Clean pencil/ink sketch with confident linework. Grayscale with selective tonal values for depth. Hand-drawn storyboard aesthetic used in major film productions. NOT a finished illustration — a PLANNING frame.',
       'photoreal': 'Cinematic previsualization frame. Photorealistic but with the clarity of a previs render. Clean, controlled lighting. Film production quality reference frame. NOT a glamour shot — a cinematography planning tool.',
@@ -491,7 +491,7 @@ Only pose, expression, and camera angle may differ from the reference sheets.`;
       'noir': 'High-contrast black and white storyboard. Dramatic chiaroscuro. Film noir storyboard aesthetic.',
     };
     
-    const styleInstruction = storyboardStyles[artStyle] || storyboardStyles['sketch'];
+    const styleInstruction = storyboardStyles[artStyle] || storyboardStyles['photoreal'];
 
     const prompt = `PROFESSIONAL FILM STORYBOARD FRAME GENERATION
 
